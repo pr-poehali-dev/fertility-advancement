@@ -45,11 +45,12 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                Путь к <span className="text-primary">здоровому</span> родительству
+                Естественный путь к <span className="text-primary">здоровому</span> родительству
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Специализируюсь на лечении бесплодия и подготовке семейных пар к естественному зачатию. 
-                Современные методы диагностики и лечения нарушений репродуктивной функции.
+                Восстановление естественной фертильности будущих родителей. Подготовка к зачатию и беременности 
+                без применения ЭКО и вспомогательных репродуктивных технологий. Здоровое потомство без рисков генетической, 
+                хромосомной и онкологической патологии.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button size="lg" className="text-lg" asChild>
@@ -99,10 +100,10 @@ const Index = () => {
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                   <Icon name="Microscope" className="text-primary" size={28} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Лечение бесплодия</h3>
+                <h3 className="text-xl font-semibold mb-3">Восстановление фертильности</h3>
                 <p className="text-muted-foreground">
-                  Диагностика и лечение нарушений сперматогенеза у мужчин и овогенеза у женщин. 
-                  Индивидуальный подход к каждой паре.
+                  Лечение нарушений сперматогенеза у мужчин и овогенеза у женщин естественными методами. 
+                  Восстановление репродуктивной функции без применения ЭКО.
                 </p>
               </CardContent>
             </Card>
@@ -112,10 +113,10 @@ const Index = () => {
                 <div className="w-14 h-14 bg-secondary/10 rounded-xl flex items-center justify-center mb-4">
                   <Icon name="HeartPulse" className="text-secondary" size={28} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Восстановление фертильности</h3>
+                <h3 className="text-xl font-semibold mb-3">Лечение бесплодных пар</h3>
                 <p className="text-muted-foreground">
-                  Программы по восстановлению естественной репродуктивной функции 
-                  с использованием современных методов лечения.
+                  Комплексное лечение семейных пар с диагнозом бесплодие. 
+                  Индивидуальные программы восстановления естественной способности к зачатию.
                 </p>
               </CardContent>
             </Card>
@@ -123,12 +124,12 @@ const Index = () => {
             <Card className="hover:shadow-xl transition-shadow duration-300">
               <CardContent className="pt-6">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                  <Icon name="TestTube" className="text-primary" size={28} />
+                  <Icon name="Shield" className="text-primary" size={28} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Подготовка к ЭКО/ИКСИ</h3>
+                <h3 className="text-xl font-semibold mb-3">Профилактика генетических рисков</h3>
                 <p className="text-muted-foreground">
-                  Комплексная подготовка семейных пар к репродуктивным технологиям 
-                  для повышения шансов успешного зачатия.
+                  Подготовка к зачатию и беременности для исключения рисков генной и хромосомной патологии, 
+                  онкологических и психиатрических заболеваний у потомства.
                 </p>
               </CardContent>
             </Card>
@@ -138,10 +139,10 @@ const Index = () => {
                 <div className="w-14 h-14 bg-secondary/10 rounded-xl flex items-center justify-center mb-4">
                   <Icon name="Baby" className="text-secondary" size={28} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Ведение беременности</h3>
+                <h3 className="text-xl font-semibold mb-3">Здоровая беременность</h3>
                 <p className="text-muted-foreground">
-                  Профессиональное медицинское сопровождение на всех этапах беременности 
-                  для здоровья мамы и малыша.
+                  Подготовка и ведение беременности для нормального течения и рождения 
+                  здорового ребёнка без пороков развития и патологий.
                 </p>
               </CardContent>
             </Card>
@@ -151,10 +152,10 @@ const Index = () => {
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
                   <Icon name="Sparkles" className="text-primary" size={28} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Подготовка к зачатию</h3>
+                <h3 className="text-xl font-semibold mb-3">Подготовка к естественному зачатию</h3>
                 <p className="text-muted-foreground">
-                  Программы прегравидарной подготовки для получения здорового потомства. 
-                  Консультации по планированию семьи.
+                  Комплексная прегравидарная подготовка будущих родителей. 
+                  Создание оптимальных условий для естественного зачатия здорового ребёнка.
                 </p>
               </CardContent>
             </Card>
@@ -189,13 +190,14 @@ const Index = () => {
               <h2 className="text-4xl md:text-5xl font-bold">Обо мне</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Более 15 лет я специализируюсь на лечении бесплодных семейных пар 
-                и восстановлении репродуктивного здоровья. За эти годы я помог сотням семей 
-                обрести радость родительства.
+                и восстановлении естественной фертильности будущих отцов и матерей. 
+                За эти годы я помог сотням семей обрести радость родительства естественным путём.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Моя специализация включает диагностику и лечение нарушений сперматогенеза 
-                у мужчин и овогенеза у женщин. В сложных случаях я провожу подготовку пар 
-                к использованию репродуктивных технологий, таких как ЭКО и ИКСИ.
+                Моя специализация — восстановление репродуктивной функции без ЭКО и других 
+                вспомогательных репродуктивных технологий. Подготовка семей к зачатию, 
+                нормальному течению беременности и рождению здорового потомства без пороков развития, 
+                генной и хромосомной патологии, без рисков онкологических и психиатрических заболеваний.
               </p>
               <div className="space-y-4 pt-4">
                 <div className="flex items-start gap-3">
@@ -208,8 +210,8 @@ const Index = () => {
                 <div className="flex items-start gap-3">
                   <Icon name="CheckCircle2" className="text-secondary mt-1" size={24} />
                   <div>
-                    <div className="font-semibold">Современные методы</div>
-                    <div className="text-muted-foreground">Использование передовых технологий диагностики</div>
+                    <div className="font-semibold">Естественные методы</div>
+                    <div className="text-muted-foreground">Восстановление фертильности без ЭКО и ВРТ</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
