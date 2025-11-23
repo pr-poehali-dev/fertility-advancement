@@ -30,6 +30,7 @@ const Index = () => {
               <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
               <a href="#about" className="hover:text-primary transition-colors">Обо мне</a>
               <a href="#results" className="hover:text-primary transition-colors">Результаты</a>
+              <a href="#prices" className="hover:text-primary transition-colors">Цены</a>
               <a href="#reviews" className="hover:text-primary transition-colors">Отзывы</a>
               <a href="#blog" className="hover:text-primary transition-colors">Блог</a>
               <Button asChild>
@@ -271,6 +272,84 @@ const Index = () => {
               alt="Счастливая семья"
               className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto object-cover"
             />
+          </div>
+        </div>
+      </section>
+
+      <section id="prices" className="py-20 bg-white px-4">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Цены</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Прозрачная стоимость консультаций
+            </p>
+          </div>
+          <div className="max-w-3xl mx-auto">
+            <Card className="hover:shadow-xl transition-shadow">
+              <CardContent className="p-8">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                  <div className="flex-1">
+                    <div className="flex items-start gap-3 mb-4">
+                      <Icon name="Users" className="text-primary mt-1" size={32} />
+                      <div>
+                        <h3 className="text-2xl font-semibold mb-2">Приём семейной пары</h3>
+                        <p className="text-muted-foreground leading-relaxed">
+                          Комплексная консультация специалиста в медицинском центре. 
+                          Диагностика, обследование и индивидуальный план лечения для обоих партнёров.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <Icon name="Clock" size={16} />
+                        <span>60-90 минут</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <Icon name="FileText" size={16} />
+                        <span>Заключение специалиста</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <Icon name="Clipboard" size={16} />
+                        <span>План обследования</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-center md:text-right">
+                    <div className="text-5xl font-bold text-primary mb-2">5 000 ₽</div>
+                    <Button size="lg" asChild className="mt-4">
+                      <a href="#contact">Записаться</a>
+                    </Button>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <div className="mt-8 p-6 bg-muted/30 rounded-xl">
+              <div className="flex items-start gap-3">
+                <Icon name="Info" className="text-primary mt-1" size={24} />
+                <div>
+                  <h4 className="font-semibold mb-2">Что входит в приём</h4>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" className="text-secondary mt-1 flex-shrink-0" size={18} />
+                      <span>Подробная консультация по репродуктивному здоровью обоих партнёров</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" className="text-secondary mt-1 flex-shrink-0" size={18} />
+                      <span>Анализ анамнеза и предыдущих обследований</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" className="text-secondary mt-1 flex-shrink-0" size={18} />
+                      <span>Индивидуальный план обследования и лечения</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" className="text-secondary mt-1 flex-shrink-0" size={18} />
+                      <span>Рекомендации по подготовке к естественному зачатию</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
